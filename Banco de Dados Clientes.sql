@@ -12,10 +12,10 @@ SHOW DATABASES;
 
 // Cria uma nova tabela chamada dados.
 CREATE TABLE dados(id INT AUTO_INCREMENT NOT NULL,
-	nome TEXT,
+	nome VARCHAR(64),
 	nascimento DATE,
-	email TEXT,
-	senha TEXT,
+	email VARCHAR(256),
+	senha VARCHAR(32),
     PRIMARY KEY(id)
 );
 
